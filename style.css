@@ -1,0 +1,255 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+html { box-sizing: border-box; font-size: 62.5%;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+/* GLOBAL STYLING */
+
+html {
+    background-color: #a6a4a4;
+    font-family: 'Catamaran', sans-serif;
+}
+
+body, h1, h2, h3, h4, p, ul, button {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
+}
+
+li, p, a {
+    font-size: 2rem;
+    line-height: 29px;  
+}
+
+/* HEADER */
+
+header {
+    background-image: url(./biker-land-assets/image-1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.navFlex {
+    display: flex;
+    justify-content: space-between;
+    max-width: 47%; 
+    position: relative;
+    left: 29%;
+    padding: 25px 0;
+}
+
+.navFlex a {
+    color: #FFFFFF;
+}
+
+
+h1 {
+    color: #F2A11C;
+    font-size: 13rem;
+    width: 100%;
+    text-align: center;
+}
+
+.titleHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+  }
+
+.titleHeader a {
+    color: #F2A11C;
+}
+
+.titleHeader li {
+    padding: 5px 0;
+}
+
+/* ABOUT US */
+
+.aboutUsContainer {
+    height: 50vh;
+    background-image: url(./biker-land-assets/image-2.jpg);
+    background-size: 50% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.aboutUs {
+    width: 40%;
+    height: 100%;
+    padding: 7% 4% 4% 0%;
+}
+
+.aboutUs h2 {
+    font-size: 4.2rem;
+}
+
+.aboutUs p {
+    font-size: 2rem;
+    line-height: 29px;
+    margin: 10px 0 18px;
+}
+
+.aboutUs a {
+    font-size: 1.8rem;
+    background-color: #152022;
+    color: #F2A11C;
+    padding: 4px 20px;
+}
+
+/* OUR MISSION */
+
+.ourMissionContainer {
+    height: 50vh;
+    background-image: url(./biker-land-assets/image-7.jpg);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.ourMission {
+    width: 40%;
+    height: 100%;
+    padding: 7% 0% 4% 0%;
+    margin: 0 60% 0 54%;
+}
+
+.ourMission h2 {
+    font-size: 4.2rem;
+}
+
+.ourMission p {
+    font-size: 2rem;
+    line-height: 29px;
+    margin: 10px 0 18px;
+}
+
+.ourMission a {
+    font-size: 1.8rem;
+    background-color: #152022;
+    color: #F2A11C;
+    padding: 4px 20px;
+}
+
+/* MEET ALISSA */
+
+.meetAlissa {
+    background-color: #FAF4F4;
+    height: 45vh;
+}
+
+.meetAlissaContainer {
+    display: flex;
+    padding: 5% 0;
+}
+
+.alissaImg {
+
+}
+
+.alissaBio {
+    padding: 20px 0 0% 3%;
+}
+
+.alissaBio h2 {
+    font-size: 4.2rem;
+}
+
+.alissaBio p {
+    font-size: 2rem;
+    line-height: 29px;
+    margin: 10px 0 18px;
+}
+
+.alissaBio a {
+    font-size: 1.8rem;
+    background-color: #152022;
+    color: #F2A11C;
+    padding: 4px 20px;
+}
+
+/* TAG */
+
+.tag {
+    background-image: url(./biker-land-assets/image-5.jpg);
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tagContainer {
+    color: #F2A11C;
+    height: 100%;
+    width: 41%;
+    margin: 0 auto;
+}
+
+.tagContainer ul {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+/* THE GRAM */
+
+.gram {
+    height: 70vh;
+}
+
+.gramTitle {
+    width: 100%;
+    margin: 75px auto;
+}
+
+.gramTitle h2 {
+    text-align: center;
+    font-size: 4.2rem;
+}
+
+.gram .imgContainer {
+
+}
+
+.gram ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.gram img {
+    height: 350px;
+    margin: 0px 26px;
+    width: calc(100% - 26px);
+}
